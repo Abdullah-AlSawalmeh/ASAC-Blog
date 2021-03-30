@@ -12,7 +12,59 @@
 
 <body>
 
+    <header>
+        <ul>
+            <a href="#">
+                <li>Home</li>
+            </a>
+            <a href="#">
+                <li>About</li>
+            </a>
+            <a href="#">
+                <li>Contact</li>
+            </a>
+        </ul>
+    </header>
 
+
+    <main>
+        <div class="left-section">
+            <form id="form">
+                <label for="name">Author Name</label>
+                <input type="text" name="name" id="name"> <br>
+                <label for="title">Article title</label>
+                <input type="text" name="title" id="title"> <br>
+
+                <label for="subjects">Subjects</label>
+                <select name="subjects" id="subjects">
+                    <option value="Coding">Coding</option>
+                    <option value="3D printing">3D printing</option>
+                    <option value="Cyber security">Cyber security</option>
+                    <option value="AI">AI</option>
+                </select> <br>
+                <label for="content">Contents</label>
+                <textarea name="content" id="content" cols="60" rows="20"></textarea> <br>
+                <div class="date">
+                    <label for="day">Day</label>
+                    <input type="text" name="day" id="day">
+                    <label for="month">Month</label>
+                    <input type="text" name="month" id="month">
+                    <label for="year">Year</label>
+                    <input type="text" name="year" id="year">
+                </div> <br>
+                <input type="submit">
+
+            </form>
+        </div>
+
+        <div class="right-section" id="right-section">
+            <!-- <div id="article" class="article"></div> -->
+        </div>
+    </main>
+
+    <footer>
+        <p>All rights are reserved &copy;</p>
+    </footer>
 
 
 

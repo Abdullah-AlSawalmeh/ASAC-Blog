@@ -1,0 +1,47 @@
+main {
+    overflow: hidden;
+    min-height: 80vh;
+}
+
+
+.left-section {
+    width:35% ;
+    margin: 50px 5% 50px 10%;
+    background-color: aquamarine;
+    float: left;
+}
+
+form {
+    width: 100%;
+    padding: 20px;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 5px 0px 5px 0px;
+    margin-bottom: 20px;
+}
+
+.article-img {
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+
+.right-section {
+    width:35% ;
+    margin: 50px 10% 50px 5%;
+    background-color: aquamarine;
+    float: left;
+    text-align: center;
+}
+
+.article {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+
